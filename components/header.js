@@ -29,9 +29,8 @@ class Header extends HTMLElement {
   connectedCallback() {
     const content = headerTemplate.content.cloneNode(true);
     this.appendChild(content);
-    console.log(content);
-    
   }
 }
+
 
 customElements.define('header-component', Header);
